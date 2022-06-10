@@ -1,3 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-// const textColor = Color.fromARGB(a, r, g, b)
+const textColors = Color.fromARGB(225, 8, 76, 130);
+const cBlack = Colors.black;
