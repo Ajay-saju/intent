@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/src/extension_navigation.dart';
 // import 'package:flutter/src/foundation/key.dart';
 // import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intent/core/Sizes/size.dart';
 import 'package:intent/core/colors/colors.dart';
+import 'package:intent/view/screens/persistnavbar.dart';
 import 'package:intent/view/screens/signup.dart';
 import 'package:sizer/sizer.dart';
 
@@ -66,7 +69,9 @@ class LoginButtons extends StatelessWidget {
     return SizedBox(
       height: 7.h,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+           Get.to(const PersistNavBar());
+        },
         style: ElevatedButton.styleFrom(
           primary: buttonColor,
           shape: RoundedRectangleBorder(
