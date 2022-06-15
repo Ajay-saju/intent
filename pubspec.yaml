@@ -28,9 +28,13 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.2
+  flat_icons_flutter: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_svg: ^1.1.0
+  get: ^4.6.5
   google_fonts: ^3.0.1
+  google_nav_bar: ^5.0.6
   sizer: ^2.0.15
 
 dev_dependencies:
@@ -48,8 +52,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - asset/Icons/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -63,7 +67,7 @@ flutter:
   # fonts:
   #   - family: Schyler
   #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: asset/fontIcon/fonts/PlusIcon.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

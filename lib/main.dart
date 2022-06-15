@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import 'package:intent/view/screens/signup.dart';
 import 'package:sizer/sizer.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     //  designSize: const Size(360, 690),
 
     return Sizer(
-      builder: ((context, orientation, deviceType) => MaterialApp(
+      builder: ((context, orientation, deviceType) => GetMaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Flutter Demo',
             theme: ThemeData(
