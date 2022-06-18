@@ -4,12 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:intent/core/colors/colors.dart';
-import 'package:intent/view/screens/chatScreen.dart';
-import 'package:intent/view/screens/homeScreen.dart';
-import 'package:intent/view/screens/postscreen.dart';
-import 'package:intent/view/screens/profilescreen.dart';
-import 'package:intent/view/screens/searchscreen.dart';
+import 'package:intent/core/colors/color.dart';
+import 'package:intent/view/screens/chat_screen.dart';
+import 'package:intent/view/screens/home_screen.dart';
+
+
+import 'package:intent/view/screens/post_screen.dart';
+import 'package:intent/view/screens/profile_screen.dart';
+import 'package:intent/view/screens/search_screen.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:sizer/sizer.dart';
 

@@ -7,6 +7,8 @@ class PostScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: SafeArea(child: Column(children: [Text('Post screen')],)),);
+    return Scaffold(body: SafeArea(child: Column(children: [
+      
+    ],)),);
   }
 }
